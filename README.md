@@ -6,6 +6,7 @@ TODO
 
 ## Setting Up TypeScript
 
+Reference: (https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript)[https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript]
 1. Install TypeScript dependencies: `yarn add -D typescript`
 2. Install TypeScript linting: `yarn add -D tslint`
 3. Create a tsconfig.json file in the root directory and populate with:
