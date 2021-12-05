@@ -12,7 +12,8 @@
 		"dev": "nodemon src/app.ts",
 		"format": "prettier --write 'src/**/*.ts'",
 		"conflict-check": "tslint-config-prettier-check ./tslint.json",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"clean": "rm -r node_modules && rm -r dist"
 	},
 	"devDependencies": {
 		"husky": "^7.0.0",
