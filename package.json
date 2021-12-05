@@ -1,0 +1,10 @@
+{
+  "name": "cycle-scraper",
+  "version": "1.0.0",
+  "description": "Notify user if bicycle is in stock at Paramount Sports.",
+  "main": "index.js",
+  "repository": "https://github.com/DavidBall117/cycle-scraper.git",
+  "author": "David Ball",
+  "license": "MIT",
+  "private": false
+}
