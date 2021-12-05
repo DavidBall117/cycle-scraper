@@ -43,5 +43,17 @@ Reference: (https://www.digitalocean.com/community/tutorials/setting-up-a-node-p
 5. Add the following to the package.json scripts object:
    `"start": "tsc && node dist/app.js"`
 6. Create the src/app.ts directory/file at the root of the project for the entry point.
-7. (optional) Run the commands `yarn add -D ts-node` and `yarn add -D nodemon`, and add the following to the package.json scripts:
-   `"dev": "nodemon src/app.ts"`
+7. (optional) Add Run the commands `yarn add -D ts-node` and `yarn add -D nodemon`. Add the following command to the package.json scripts:
+   `"dev": "nodemon src/app.ts",`
+8. (optional) Add prettier to project for code formatting. Run the commands: `yarn add -D prettier` and `yarn add -D tslint-config-prettier`. Add the following to the tslint.json file:
+
+```
+"extends": [
+  "tslint:recommended",
+  "tslint-config-prettier"
+],
+```
+
+Add the following commands to the package.json scripts:
+`"format": "prettier --write 'src/**/*.ts'",`
+`"conflict-check": "tslint-config-prettier-check ./tslint.json"`
