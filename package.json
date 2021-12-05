@@ -26,10 +26,10 @@
   "dependencies": {},
   "husky": {
     "hooks": {
-      "pre-commit": "yarn format"
+      "pre-commit": "lint-staged"
     }
   },
-  "lint-format": {
+  "lint-staged": {
     "*.ts": [
       "tslint --fix",
       "prettier --write",
