@@ -63,5 +63,8 @@ Reference: (https://www.digitalocean.com/community/tutorials/setting-up-a-node-p
 ```
 
 Add the following commands to the package.json scripts:
-`"format": "prettier --write 'src/**/*.ts'",`
-`"conflict-check": "tslint-config-prettier-check ./tslint.json"`
+
+```
+"format": "prettier --write 'src/**/*.ts'",
+"conflict-check": "tslint-config-prettier-check ./tslint.json"
+```
